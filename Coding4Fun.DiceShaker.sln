@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker.Application", "Application\Coding4Fun.DiceShaker.Application.csproj", "{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker", "DiceShaker\Coding4Fun.DiceShaker.csproj", "{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{290F35C6-A7C2-4222-A7CE-7F1AC77417D3}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\SharedAssemblyInfo.cs = Dependencies\SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

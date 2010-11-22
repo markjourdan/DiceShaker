@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="Coding4Fun.DiceShaker.Phone.Properties.c__users_mark_documents_sourcecontrol_diceroller_attempt_2_diceroller_properties_designtimeresources_xaml">
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="/Dice.Phone;component/ResourceDictionary.xaml" />
+	</ResourceDictionary.MergedDictionaries>
+	<!-- Resource dictionary entries should be defined here. -->
+</ResourceDictionary>
