@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.0">
-  <App xmlns="" ProductID="{75eb1582-d12c-4b78-b6f1-8434b9d152e9}" Title="Dice Shaker" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Mark Jourdan" Description="An application to roll some dice for different games." Publisher="Coding4Fun.DiceShaker">
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{e061ace8-2c76-489c-83f5-0c74edaaeef2}" Title="Dice Shaker" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Mark Jourdan" Description="An application to roll some dice for different games." Publisher="Coding4Fun.DiceShaker">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
