@@ -108,20 +108,24 @@
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Coding4Fun.Controls">
-      <HintPath>..\Dependencies\Coding4Fun.Controls.dll</HintPath>
+    <Reference Include="Coding4Fun.Phone.Controls">
+      <HintPath>..\packages\Coding4Fun.Phone.Controls.1.6.1\lib\sl4-windowsphone71\Coding4Fun.Phone.Controls.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Devices.Sensors" />
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Controls.Toolkit">
-      <HintPath>..\Dependencies\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+      <HintPath>..\packages\WPtoolkit.4.2012.10.30\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="System.Windows" />
     <Reference Include="system" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Dependencies\SharedAssemblyInfo.cs">
+    <Compile Include="..\..\Dependencies\SharedAssemblyInfo.cs">
       <Link>SharedAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="About.xaml.cs">
+      <DependentUpon>About.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -141,6 +145,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="About.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -162,6 +170,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
   </ItemGroup>
@@ -171,10 +180,18 @@
     </Content>
     <Content Include="Assets\appbar.check.rest.png" />
     <Content Include="Assets\appbar.feature.settings.rest.png" />
+    <Content Include="Assets\dark\coding4funlogo.png" />
+    <Content Include="Assets\dark\head.png" />
+    <Content Include="Assets\light\coding4funlogo.png" />
+    <Content Include="Assets\light\head.png" />
     <Content Include="Background.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SplashScreenImage.jpg" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Application\Coding4Fun.DiceShaker.Application.csproj">
@@ -194,6 +211,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

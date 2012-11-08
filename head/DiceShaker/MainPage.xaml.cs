@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Windows.Controls;
-using Coding4Fun.Controls;
 using Coding4Fun.DiceShaker.Application.Presenters;
 using Coding4Fun.DiceShaker.Application.Views;
+using Coding4Fun.Phone.Controls;
 using Microsoft.Devices.Sensors;
 using Microsoft.Phone.Controls;
 
@@ -24,6 +24,7 @@ namespace Coding4Fun.DiceShaker
 			_presenter = new MainPagePresenter(this);
 			_presenter.Initialize();
 		}
+
         #region IMainPageView Members
 
         public void LoadDynamicControl(UserControl control)
@@ -57,7 +58,9 @@ namespace Coding4Fun.DiceShaker
 
         private void LaunchAbout_Click(object sender, EventArgs e)
         {
-            About.Show("Mark Jourdan", "MarkJourdan", "mjourdan@markjourdan.com", "http://portfolio.markjourdan.com", this, LayoutRoot);
+            var about = new AboutPrompt {Footer = new About()};
+
+            about.Show("Mark Jourdan", "MarkJourdan", "mjourdan@markjourdan.com", @"http://www.markjourdan.name");
         }
     }
 }

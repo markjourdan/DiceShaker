@@ -1,8 +1,6 @@
 ﻿using System.Diagnostics;
-using System.Threading;
 using System.Windows;
 using System.Windows.Navigation;
-using Coding4Fun.DiceShaker.Application.Helper;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
