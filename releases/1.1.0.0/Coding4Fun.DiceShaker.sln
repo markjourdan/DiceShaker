@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{290F35C6-A7C2-4222-A7CE-7F1AC77417D3}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\SharedAssemblyInfo.cs = Dependencies\SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker.Application", "Application\Coding4Fun.DiceShaker.Application.csproj", "{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker", "DiceShaker\Coding4Fun.DiceShaker.csproj", "{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7D8761AB-08DE-495A-9FA5-1FACC20823F7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs09
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Application\\Coding4Fun.DiceShaker.Application.csproj
+		SccProjectName1 = Application
+		SccLocalPath1 = Application
+		SccProjectUniqueName2 = DiceShaker\\Coding4Fun.DiceShaker.csproj
+		SccProjectName2 = DiceShaker
+		SccLocalPath2 = DiceShaker
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|x86.ActiveCfg = Debug|x86
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Debug|x86.Build.0 = Debug|x86
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|x86.ActiveCfg = Release|x86
+		{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}.Release|x86.Build.0 = Release|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|ARM.Build.0 = Debug|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|x86.ActiveCfg = Debug|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|x86.Build.0 = Debug|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Debug|x86.Deploy.0 = Debug|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|ARM.ActiveCfg = Release|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|ARM.Build.0 = Release|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|ARM.Deploy.0 = Release|ARM
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|x86.ActiveCfg = Release|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|x86.Build.0 = Release|x86
+		{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
