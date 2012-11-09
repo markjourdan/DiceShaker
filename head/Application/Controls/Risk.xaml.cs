@@ -25,7 +25,7 @@ namespace Coding4Fun.DiceShaker.Application.Controls
 			get { return (RiskConfiguration) cbRiskProfile.SelectedItem; }
             set
             {
-				cbRiskProfile.SelectedItem = value;
+                cbRiskProfile.SelectedItem = value;
                 SetCurrentStateSelectedConfiguraiton();
             }
         }
@@ -95,20 +95,12 @@ namespace Coding4Fun.DiceShaker.Application.Controls
 
 		public void SetTotals()
 		{
-			for (int i = 0; i < _defenders.Count; i++)
+			for (var i = 0; i < _defenders.Count; i++)
 			{
-				if (_attackers.Count <= i)
+			    if (_attackers.Count <= i)
 					continue;
 
-				if (_attackers[i].Side > _defenders[i].Side)
-				{
-					HighlightDice(_attackers[i]);
-				}
-				else
-				{
-
-					HighlightDice(_defenders[i]);
-				}
+			    HighlightDice(_attackers[i].Side > _defenders[i].Side ? _attackers[i] : _defenders[i]);
 			}
 		}
 
@@ -180,10 +172,7 @@ namespace Coding4Fun.DiceShaker.Application.Controls
 
             if (PhoneApplicationService.Current.State.ContainsKey("SelectedConfiguration"))
             {
-                SelectedConfiguration =
-                    _configurations.Where(
-                        c => c.Name == PhoneApplicationService.Current.State["SelectedConfiguration"].ToString()).
-                        FirstOrDefault();
+                SelectedConfiguration = _configurations.FirstOrDefault(c => c.Name == PhoneApplicationService.Current.State["SelectedConfiguration"].ToString());
             }
             else
             {
@@ -254,8 +243,7 @@ namespace Coding4Fun.DiceShaker.Application.Controls
 
 			InitializeGridRows(Math.Max(SelectedConfiguration.NumberOfAttackers, SelectedConfiguration.NumberOfDefenders));
         }
-
-
+        
 		private void cbRiskProfile_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
 			FillDice();
