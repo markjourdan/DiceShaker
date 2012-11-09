@@ -66,8 +66,7 @@ namespace Coding4Fun.DiceShaker
 
         private void LaunchAbout_Click(object sender, EventArgs e)
         {
-            var about = new AboutPrompt {Footer = new About()};
-
+            var about = new AboutPrompt {Footer = new About(), VersionNumber = "v.1.1"};
             about.Show("Mark Jourdan", "MarkJourdan", "mjourdan@markjourdan.com", @"http://www.markjourdan.name");
         }
     }
