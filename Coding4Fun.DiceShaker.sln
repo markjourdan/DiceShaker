@@ -1,14 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{290F35C6-A7C2-4222-A7CE-7F1AC77417D3}"
 	ProjectSection(SolutionItems) = preProject
 		..\Dependencies\SharedAssemblyInfo.cs = ..\Dependencies\SharedAssemblyInfo.cs
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker.Application", "Application\Coding4Fun.DiceShaker.Application.csproj", "{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker", "DiceShaker\Coding4Fun.DiceShaker.csproj", "{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7D8761AB-08DE-495A-9FA5-1FACC20823F7}"
 	ProjectSection(SolutionItems) = preProject
@@ -16,6 +14,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7D8761
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker.Application", "Application\Coding4Fun.DiceShaker.Application.csproj", "{2EF64DFC-E163-4DE8-A7A8-FD93BF42F8A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding4Fun.DiceShaker", "DiceShaker\Coding4Fun.DiceShaker.csproj", "{1C69D305-A5F8-405D-9CB2-2FD1FACBFB1C}"
 EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution

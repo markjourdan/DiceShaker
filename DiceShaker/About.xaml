@@ -8,7 +8,7 @@
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
-    d:DesignHeight="100" d:DesignWidth="480">
+    d:DesignHeight="110" d:DesignWidth="480">
     <UserControl.Resources>
         <Converters:ThemedImageConverter x:Key="ThemedImageConverter"/>
     </UserControl.Resources>
@@ -27,14 +27,14 @@
         <StackPanel>
             <TextBlock 
                 TextWrapping="Wrap"
-                Text="Application has been open sourced by"
+                Text="Source code is released under the Microsoft Public License (Ms-PL) @"
                 Margin="0">
             </TextBlock>
             <Image Margin="0,5,10,0"
                 DataContext="Assets/{0}/coding4funLogo.png"
                 Source="{Binding Converter={StaticResource ThemedImageConverter}}"
                 Stretch="None"
-                HorizontalAlignment="Right"/>
+                HorizontalAlignment="Right" Tap="Code4FunImageTap"/>
         </StackPanel>
     </Grid>
 </UserControl>
