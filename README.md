@@ -7,3 +7,10 @@ If you want to know how the application works, head over to the Coding4Fun artic
 # Credits
 
 Mark Jourdan for primary development
+
+# Pictures
+
+![splash](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_diceshaker_splash_thumb.png)
+![monopoly](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_monopoly_thumb.png)
+![options](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_options_thumb.png)
+![risk](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_risk_thumb.png)
