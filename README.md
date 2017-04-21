@@ -10,7 +10,7 @@ Mark Jourdan for primary development
 
 # Pictures
 
-![splash](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_diceshaker_splash_thumb.png)
-![monopoly](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_monopoly_thumb.png)
-![options](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_options_thumb.png)
-![risk](https://github.com/markjourdan/DiceShaker/blob/master/docs/Home_risk_thumb.png)
+![splash](docs/Home_diceshaker_splash_thumb.png)
+![monopoly](docs/Home_monopoly_thumb.png)
+![options](docs/Home_options_thumb.png)
+![risk](docs/Home_risk_thumb.png)
